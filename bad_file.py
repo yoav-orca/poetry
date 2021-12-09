@@ -7,3 +7,7 @@ with open("a.yaml") as f:
 x = 1
 if x == x:
     print("X")
+
+with open("b.yaml") as f:
+    yaml.load(f)
+
